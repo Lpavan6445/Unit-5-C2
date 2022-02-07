@@ -67,6 +67,7 @@ export const Form=()=>{
           <option>4</option>
           <option>5</option>
         </select>
+        
        <input type="submit" name="Submit" onClick={(e)=>{
          e.preventDefault()
          fetch('https://fake-server-pavan.herokuapp.com/games', {
