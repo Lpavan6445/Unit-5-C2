@@ -1,5 +1,12 @@
+import {Form} from './components/form';
+import './App.css';
+
 function App() {
-  return <div>"Start code here"</div>;
+  return (
+    <div >
+       <Form />
+    </div>
+  );
 }
 
 export default App;
